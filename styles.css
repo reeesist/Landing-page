@@ -6,6 +6,8 @@ body {
     margin: 0;
     font-family: Roboto, sans-serif;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 li, a {
@@ -21,7 +23,6 @@ header {
     align-items: center;
     background-color: #1f2937;
     height: 72px;
-    /* padding: 16px 180px */
 }
 
 .logo {
@@ -35,4 +36,50 @@ header {
     list-style: none;
     display: flex;
     gap: 22px;
+}
+
+
+
+ .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #1f2937;
+    padding: 128px 340px;
+}
+
+.child {
+    flex: 1;
+   padding: 0;
+   margin: 0;
+   align-self: flex-start;
+}
+      
+ img {
+    /* max-width: 100%; */
+} 
+
+.child.hero {
+    font-size: 40px;
+    color: #f9faf8;
+    margin: -55px 16px 32px 16px;
+    padding: 0;
+    width: 32vw;
+}
+
+.child .tata, button {
+    font-size: 20px;
+    margin-top: -40px;
+    color:rgb(218, 237, 252)
+} 
+ 
+.foto {
+    width: 32vw;
+}
+
+button {
+    background-color:#3882f6;
+    border: none;
+    border-radius: 10px;
+    padding: 6px 24px;
 }
