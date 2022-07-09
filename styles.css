@@ -17,7 +17,7 @@ li, a {
 
 header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background-color: #1f2937;
     height: 72px;
