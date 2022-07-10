@@ -35,10 +35,10 @@ header {
 .nav {
     list-style: none;
     display: flex;
-    gap: 22px;
+    gap: 30px;
 }
 
-
+/*           */
 
  .container {
     display: flex;
@@ -54,10 +54,6 @@ header {
    margin: 0;
    align-self: flex-start;
 }
-      
- img {
-    /* max-width: 100%; */
-} 
 
 .child.hero {
     font-size: 40px;
@@ -82,4 +78,43 @@ button {
     border: none;
     border-radius: 10px;
     padding: 6px 24px;
+}
+
+/*               */
+
+.info {
+    margin: 55px auto 55px auto;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2937;
+ }
+
+.nr3 {
+    max-width: 300px;
+    max-height: 200px;
+    flex:1;
+    border: 2px solid rgb(92, 92, 212);
+    border-radius: 15px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.container2 {
+    display: flex;
+    align-items: flex-start;
+    align-self: center;
+}
+
+.card {
+    flex: 1;
+    width: 16vw;
+    height: 30vw;
+    display:flex;
+    flex-direction: column;
+}
+
+.subtext {
+    padding: 10px;
+    color: rgb(75, 73, 73);
+    text-align: center;
 }
